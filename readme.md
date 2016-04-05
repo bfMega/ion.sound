@@ -118,7 +118,8 @@ ion.sound.play("my_cool_sound");
 | `volume` | `1.0` | `number` | Playback volume from 0 to 1 |
 | `scope` | `null` | `object` | Callbacks will be called in that object's scope |
 | `ready_callback` | `null` | `function` | Called after sound file is fully uploaded (or ready to play for HTML5 audio) |
-| `ended_callback` | `null` | function`` | Called each time then sound file will reach it's end |
+| `ended_callback` | `null` | `function` | Called each time then sound file will reach it's end |
+| `allow_cache` | `true` | `boolean` | If set to false, would disable the browser cache by appending a random string to the URL every time the sounds file is being loaded |
 
 
 ## Sound object
